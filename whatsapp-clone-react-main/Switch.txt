@@ -1,0 +1,21 @@
+const theme = (e,val) => {
+        console.log(val);
+        if(val == true){
+            console.log("I'm in...");
+            let chat_message = document.querySelector(".chat_message");
+            chat_message.style.backgroundColor = "#FFB86F";
+
+            let chat_receiver = document.querySelector(".chat_receiver");
+            chat_receiver.style.backgroundColor = "#3D315B";
+        }
+        else{
+            let chat_message = document.querySelector(".chat_message");
+            chat_message.style.backgroundColor = "white";
+
+            let chat_receiver = document.querySelector(".chat_receiver");
+            chat_receiver.style.backgroundColor = "#dcf8c6";
+
+        }
+    }
+
+<Switch color="primary" size="normal" onChange={theme}/>
