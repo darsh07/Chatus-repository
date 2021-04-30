@@ -24,7 +24,7 @@ function Login() {
            <div className="login_container">
                <img src="https://icons-for-free.com/iconfiles/png/512/comments+inbox+message+icon-1320195968215707585.png" height="300px" width="300px" alt=""/> 
                 <div className="login_text">
-                    <h1>Welcome to Chat us</h1>
+                    <h1>Welcome to ChatUs</h1>
                 </div>
                 <Button type="submit" onClick={signIn}>Sign in With Google</Button>
            </div>
