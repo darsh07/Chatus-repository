@@ -15,7 +15,7 @@ function Sidebar(props) {
     const [{user},dispatch] = useStateValue();
 
     function logout(){ 
-        window.location.reload(); 
+        window.location.href = 'https://chat-us-2021.netlify.app/';
     }
 
     const createChat = () => {
